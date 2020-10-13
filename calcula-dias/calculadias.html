@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Calcula Dias</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper"> 
+            <a href="/">Home</a>
+        </div>
+    </header>
+    <section>
+        <div class="wrapper">
+            <p>Programa que calcula os dias vividos por uma pessoa</p>
+            <form name="frm" method="POST">
+                <label for="nome">
+                    Nome
+                    <input type="text" name="nome" id="nome">
+                </label>
+                <label for="idade">
+                    Ano
+                    <input type="text" name="ano" id="ano">
+                </label>
+                <label for="idade">
+                    Mes
+                    <input type="text" name="mes" id="mes">
+                </label>
+                <label for="idade">
+                    Dias
+                    <input type="text" name="dias" id="dias">
+                </label>
+                <input type="button" value="calcular" onclick="calculaDias()" id="btnCalcular">
+            </form>
+        
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
