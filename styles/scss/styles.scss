@@ -15,11 +15,11 @@ header {
     margin-right: 30px;
 }
 
-.lista-projetos li {
-    
-}
-
-.lista-projetos li a {
-    padding: 12px 0;
-    display: block;
+.lista-projetos {
+    li {
+        a {
+            padding: 12px 0;
+            display: inline-block;
+        }
+    }
 }
